@@ -2,9 +2,9 @@
 View the current app progress here:
 http://ec2-52-34-83-155.us-west-2.compute.amazonaws.com/CS256/EventMaster/samplepage.html
 
-Note: If you try to use this locally on chrome, you need to disable cross-origin requests in order for the menu to work. Or I think you can use firefox.
+Note: If you download this and try to run this locally on chrome, you need to disable cross-origin requests in order for the menu to work. Or you can just use firefox, I think it allows the requests automatically.
 <br>
-The menu should work on the above link though.
+The menu should already work on the above link.
 
 MAKING A NEW PAGE
 -----------------------
@@ -24,5 +24,5 @@ CURRENT FUNCTIONALITY
 What it does so far:
   <ul>
     <li> Pages made based off samplepage.html should have a working menu
-    <li> Menu Links to Profile Page
+    <li> Menu looks pretty and links to couple different pages
   </ul>
