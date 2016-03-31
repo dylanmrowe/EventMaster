@@ -11,4 +11,5 @@ To make a new page:
     <li> Follow instructions in the .html file to create your page.
   </ul>
 
-Note: The samplepage.html file requires the .css files in the css folder to function properly. Make sure you have that folder in the same directory as your samplepage.html. 
+Note: The samplepage.html file requires the files in the 'css' folder and 'images' folder to function properly. 
+      Make sure you have those in the same directory as your page.
