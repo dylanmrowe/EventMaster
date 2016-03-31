@@ -1,8 +1,12 @@
 .menu{
-	text-align: center;
+	text-align: left;
 	position:absolute;
 	background-color: #27496d;
 	height:400px;
 	width:210px;
 	color:white;
+}
+
+.icon{
+	height:35px;
 }
