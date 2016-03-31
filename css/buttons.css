@@ -9,7 +9,7 @@
    	 	margin: 0 10px 0 0;
 		padding: 15px 45px;
 		font-size: 18px;
-		font-family: "Bitter",serif;
+		font-family: 'Roboto', sans-serif;
 	}
 	button:hover {
 	  background-color: #346392;

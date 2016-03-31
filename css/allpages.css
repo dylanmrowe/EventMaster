@@ -28,6 +28,7 @@ body{
 	width:332px;
 	height:560px;
 	margin-top:82px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -39,5 +40,18 @@ body{
 .header .title{
 	color:white;
 	font-size: 24px;
+	margin-top:10px;
+}
+
+.hamburgermenu{
+	float:left;
+	align-self: flex-start;
+	width:35px;
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.hidden{
+	
 }
 

@@ -10,19 +10,34 @@
 <script>
 	//Add Javascript stuff (like functions for clicking specific buttons) here
 	
+	var ShowMenu = false;
 	$(document).ready(function() 
 	{
-
+		
 	});
+	
+	
+	function clickedMenu(){
+		if(!ShowMenu){
+			$(".menu").load("menu.html");
+			ShowMenu = !ShowMenu;
+		}
+		else{
+			$(".menu").html("");
+			ShowMenu = !ShowMenu;
+		}
+	}
 	
 </script>
 	
 	<!--ALWAYS INCLUDE THESE CSS FILES-->
 	<link rel="stylesheet" type="text/css" href="./css/buttons.css">
 	<link rel="stylesheet" type="text/css" href="./css/allpages.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 	
-	<!--INCLUDE YOUR SPECIFIC PAGE CSS FILE HERE-->
+	<!--CHANGE 'samplepage.css' TO YOUR SPECIFIC PAGE CSS FILE HERE-->
 	<link rel="stylesheet" type="text/css" href="./css/samplepage.css">
+	<!--Or, just delete this if all your css is in this html file -->
 	
 </head>
 
@@ -37,12 +52,17 @@
 			<!--HEADER - Make sure the header is consistent across all pages-->
 			<div class="header">
 
-				<!--Needs the menu button, maybe a back button (we can also use the back button at the bottom-->
-				<span class="title">Event Master</span>
+				<!--Maybe add a back button (we can also use the back button at the bottom-->
+				<img class="hamburgermenu" src="images/hamburgermenu.png" onclick="clickedMenu()">
+				<div class="title">Event Master</div>
 
 			</div>
 			<!--END HEADER-->
 			
+			<!--MENU - Make sure the menu is consistent across all pages-->
+			<div class="menu">
+			
+			</div>
 
 			<!--PUT ALL YOUR PAGE STUFF IN HERE-->
 			<div class="pagecontents">
@@ -54,7 +74,7 @@
 			
 			</div>
 			<!--STOP ADDING PAGE STUFF-->
-
+			
 		</div>
 		
 	</div>
