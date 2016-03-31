@@ -2,7 +2,8 @@
 View the current app progress here:
 http://ec2-52-34-83-155.us-west-2.compute.amazonaws.com/CS256/EventMaster/samplepage.html
 
-Note: If you download this and try to run this locally on chrome, you need to disable cross-origin requests in order for the menu to work. Or you can just use firefox, I think it allows the requests automatically.
+Note: If you download this and try to run this locally on chrome, you need to enable cross-origin requests in order for the menu to work. Or you can just use firefox, I think it allows the requests automatically.
+<br>
 <br>
 The menu should already work on the above link.
 
