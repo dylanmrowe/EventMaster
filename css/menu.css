@@ -2,8 +2,8 @@
 	text-align: left;
 	position:absolute;
 	background-color: #27496d;
-	height:400px;
-	width:240px;
+	height:440px;
+	width:230px;
 	color:white;
 }
 
@@ -14,7 +14,7 @@ a {
 
 .link{
 	line-height:40px;
-	width:210px;
+	width:230px;
 	display:block;
 	text-shadow: -1px 1px #417cb8;
 	vertical-align: middle;

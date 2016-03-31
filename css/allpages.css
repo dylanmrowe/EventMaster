@@ -35,12 +35,13 @@ body{
 	background-color: #27496d;
 	height:9%;
 	text-align: center;
+	vertical-align: center;
 }
 
 .header .title{
 	color:white;
 	font-size: 24px;
-	margin-top:10px;
+	vertical-align: center;
 }
 
 .hamburgermenu{
