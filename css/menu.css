@@ -1,5 +1,8 @@
 .menu{
-	margin: 0 auto;
-	padding:10px;
-/*	text-align: center;*/
+	text-align: center;
+	position:absolute;
+	background-color: #27496d;
+	height:400px;
+	width:210px;
+	color:white;
 }
