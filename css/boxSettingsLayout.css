@@ -1,50 +1,25 @@
-#section {
-    font-weight: bold; 
-    width: 55px; 
-    height: 100%; 
-    font-size:12px; 
-    height:100%; 
-    line-height: 15px; 
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
+.section
+{
+    text-align: center;
+    margin-top: 5px;
 }
 
-#section_title {
-    font-weight: bold; 
-    width: 175px; 
-    height: 50px; 
-    margin:0; 
-    font-size:12px; 
-    border:0; 
-    height:100%; 
-    line-height: 25px; 
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
+.section_title:before {
+    content: attr(name);
+    display: inline-block;
+    font-size: 130%;
+    max-width: 300px;
+    vertical-align: top;
+    margin-right: 10px;
 }
 
-#section_title.plus {
-
+.section_title:after {
+    content: "+";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 135%;
+    background-color: #08f3df;
+    border-width: 2px;
+    border-radius: 50%;
 }
-
-/*.columnDiv{
-    float:left; 
-    width:58px; 
-    height: 100%; 
-    background-color:#fff;
-}
-.rowDiv{
-    font-weight: bold; 
-    text-align: center; 
-    width: 175px; 
-    height: 50px; 
-    margin:0; 
-    font-size:12px; 
-    border:0; 
-    height:100%; 
-    line-height: 25px; 
-    white-space: nowrap; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-}*/
