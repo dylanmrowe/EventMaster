@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+}
+
+.phone{
+	margin: 0 auto;
+	width:332px;
+	height:640px;
+	z-index: 10;
+	background-color: black;
+}
+
+.phoneoutline{
+	
+	position: absolute;
+    top: 0px;
+    z-index: 1000;
+    width:360px;
+    margin-left:-180px;
+    left:50%;
+	pointer-events: none;
+
+}
+
+.phoneScreen{
+	z-index:50;
+	background-color: white;
+	width:332px;
+	height:560px;
+	margin-top:82px;
+}
+
+.header{
+	background-color: #27496d;
+	height:9%;
+	text-align: center;
+}
+
+.header .title{
+	color:white;
+	font-size: 24px;
+}
+
