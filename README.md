@@ -1,5 +1,8 @@
 # EventMaster
-Create, Save, and Search For Events
+View the current app progress here:
+http://ec2-52-34-83-155.us-west-2.compute.amazonaws.com/CS256/EventMaster/samplepage.html
+
+Note: If you try to use this locally on chrome, you need to disable cross-origin requests in order for the menu to work. The menu should work on the above link though.
 
 MAKING A NEW PAGE
 -----------------------
