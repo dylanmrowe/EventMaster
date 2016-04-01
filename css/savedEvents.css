@@ -1,0 +1,25 @@
+.title {
+	margin-right:auto;
+	margin-left:auto;
+}
+.eventIcon {
+	float:left;  
+	padding:0px 0px 0px 20px;
+}
+
+.eventDetails {
+	color:black;
+	padding: 0px 0px 0px 130px;
+}
+
+#eventDescription {
+}
+
+a {
+	text-decoration: none;
+}
+
+tr {
+	margin-top:0px;
+	padding-top:0px;
+}
