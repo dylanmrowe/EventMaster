@@ -1,25 +1,55 @@
-.title {
-	margin-right:auto;
-	margin-left:auto;
-}
-.eventIcon {
-	float:left;  
-	padding:0px 0px 0px 20px;
-}
-
-.eventDetails {
-	color:black;
-	padding: 0px 0px 0px 130px;
-}
-
-#eventDescription {
+h3 {
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
-tr {
-	margin-top:0px;
-	padding-top:0px;
+.event {
+	border-top: thin solid gray;
+	color: black;
 }
+
+#event4 {
+	border-bottom: thin solid gray;
+}
+
+.eventPhoto {
+	float:left;  
+	padding:12px 0px 0px 20px;
+}
+
+#event2photo {
+	padding-top: 20px;
+}
+
+#event4photo {
+	padding-top: 15px;
+}
+
+.eventDetails {
+	padding: 0px 0px 0px 130px;
+}
+
+#dateAndtime {
+	margin-bottom: 1px;
+}
+
+form {
+	text-decoration: none;
+	float: right;
+	padding-top: 16px;
+	padding-right: 10px;
+}
+
+.trashLink {
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+
+
