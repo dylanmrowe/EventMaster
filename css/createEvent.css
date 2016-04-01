@@ -1,5 +1,9 @@
 .pagecontents{
 	margin: 0 auto;
 	padding:10px;
-/*	text-align: center;*/
+	text-align: center;
+}
+
+.bottomButton{
+	margin-top: 90%;
 }
