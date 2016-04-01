@@ -1,0 +1,11 @@
+.pagecontents{
+	margin: 0 auto;
+	padding:10px;
+/*	text-align: center;*/
+}
+
+.centered {
+	width: 70%;
+	margin: 50% auto;
+	text-align: center;
+}
