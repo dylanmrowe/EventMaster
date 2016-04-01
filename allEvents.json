@@ -1,0 +1,20 @@
+{"events" : [
+	{
+		"eventName": "SampleEvent",
+		"eventImg": "url",
+		"eventDescription" : "This is a fun event",
+		"eventDate" : "",
+		"eventTime" : "",
+		"eventLocation" : "",
+		"friendsGoing" : "url"
+	}
+	{
+		"eventName": "SampleEvent2",
+		"eventImg": "url",
+		"eventDescription" : "This is a fun event",
+		"eventDate" : "",
+		"eventTime" : "",
+		"eventLocation" : "",
+		"friendsGoing" : "url"
+	}
+]}
