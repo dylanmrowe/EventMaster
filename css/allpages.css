@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: #A6A6A6;
 }
 
 .phone{
@@ -35,13 +35,13 @@ body{
 	background-color: #27496d;
 	height:9%;
 	text-align: center;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 .header .title{
 	color:white;
 	font-size: 24px;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 .hamburgermenu{
