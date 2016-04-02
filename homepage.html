@@ -26,6 +26,7 @@
 	
 	<!--CHANGE 'samplepage.css' TO YOUR SPECIFIC PAGE CSS FILE HERE-->
 	<link rel="stylesheet" type="text/css" href="./css/homepage.css">
+	<link rel="stylesheet" type="text/css" href="./css/savedEvents.css">
 	<!--Or, just delete this if all your css is in this html file -->
 	
 </head>
@@ -57,12 +58,87 @@
 			<!--PUT ALL YOUR PAGE STUFF IN HERE-->
 			<div class="pagecontents">
 			
-				<div id="find-events-area" class="centered">
+				<div id="find-events-area" class="centered hidden">
 					<h1>No Events Yet</h1>
 					<button id="find-events-button">Find Events</button>
 				</div>
-			
-			</div>
+
+				<div id="my-events-area">
+					<div class="events">
+
+						<!--First Event-->
+						<div class="eventContainer">
+							<a href="" class="eventLink">
+								<div class="event" id="event1">
+									<img src="images/mario.png" class="eventPhoto">
+									<form>
+										<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
+									</form>
+									<div class="eventDetails">
+										<p class="eventDescription">Mario Kart Party</p>
+										<p class="dateAndtime"> April 16 @ <br> 7:00 p.m.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!--Second Event-->
+						<div class="eventContainer">
+							<a href="" class="eventLink">
+								<div class="event" id="event2">
+									<img src="images/frisbee1.png" class="eventPhoto" id="event2photo">
+									<form>
+										<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
+									</form>
+									<div class="eventDetails">
+										<p class="eventDescription">Ultimate Frisbee</p>
+										<p class="dateAndtime">April 9 @ <br> 10:00 a.m.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+
+						<!--Third Event-->
+						<div class="eventContainer">
+							<a href="" class="eventLink">
+								<div class="event" id="event3">
+									<img src="images/cookoff.png" class="eventPhoto">
+									<form>
+										<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
+									</form>
+									<div class="eventDetails">
+										<p class="eventDescription">Chili Cookoff!</p>
+										<p class="dateAndtime">April 15 @ <br> 6:00 p.m.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<!--Fourth Event-->
+						<div class="eventContainer">
+							<a href="" class="eventLink">
+								<div class="event" id="event4">
+									<img src="images/basketball2.png" class="eventPhoto" id="event4photo">
+									<form>
+										<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
+									</form>
+									<div class="eventDetails">
+										<p class="eventDescription">Pickup Basketball</p>
+										<p class="dateAndtime">April 30 @ <br> 9:00 p.m.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="trashLink">
+							<a href="">Trash</a>
+						</div>
+
+
+					</div>
+
+				</div>
 			<!--STOP ADDING PAGE STUFF-->
 			
 		</div>

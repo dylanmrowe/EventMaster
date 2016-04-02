@@ -19,7 +19,7 @@ a {
 	color: black;
 }
 
-#event4 {
+.events {
 	border-bottom: thin solid gray;
 }
 
@@ -40,7 +40,7 @@ a {
 	padding: 0px 0px 0px 130px;
 }
 
-#dateAndtime {
+.dateAndtime {
 	margin-bottom: 1px;
 }
 
