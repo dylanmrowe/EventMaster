@@ -7,7 +7,7 @@
 		"eventTime" : "",
 		"eventLocation" : "",
 		"friendsGoing" : "url"
-	}
+	},
 	{
 		"eventName": "SampleEvent2",
 		"eventImg": "url",

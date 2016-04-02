@@ -27,7 +27,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 	
 	<!--CHANGE 'samplepage.css' TO YOUR SPECIFIC PAGE CSS FILE HERE-->
-	<link rel="stylesheet" type="text/css" href="./css/savedEvents.css">
+	<link rel="stylesheet" type="text/css" href="./css/trash.css">
 	<!--Or, just delete this if all your css is in this html file -->
 	
 </head>
@@ -57,11 +57,11 @@
 			<!--END MENU-->
 
 			<!--PUT ALL YOUR PAGE STUFF IN HERE-->
-			<div class="savedEvents">
+			<div class="trashedEvents">
 
 				<!--Title of page-->
-				<div class="myEventsTitle">
-					<h3>My Events</h3>
+				<div class="trashTitle">
+					<h3>Trash</h3>
 				</div>
 
 				<div class="events">
@@ -70,13 +70,13 @@
 					<div class="eventContainer">
 						<a href="" class="eventLink"> 
 						<div class="event" id="event1">
-							<img src="images/mario.png" class="eventPhoto">
-							<div class="going">
-								<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
-							</div>
+							<img src="images/study.png" class="eventPhoto" id="event1photo">
+							<form>
+								<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Remove
+							</form>							
 							<div class="eventDetails">
-								<p class="eventDescription">Mario Kart Party</p>
-								<p class="dateAndTime"> April 16 @ <br> 7:00 p.m.</p>
+								<p class="eventDescription">Study session</p>
+								<p class="dateAndtime"> April 2 @ <br> 7:00 p.m.</p>
 							</div>
 						</div>  
 						</a>
@@ -86,53 +86,20 @@
 					<div class="eventContainer">
 						<a href="" class="eventLink"> 
 						<div class="event" id="event2">
-							<img src="images/frisbee1.png" class="eventPhoto">
-							<div class="going">
-								<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
-							</div>
+							<img src="images/soccer.png" class="eventPhoto" id="event2photo"> 
+							<form>
+								<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Remove
+							</form>
 							<div class="eventDetails">
-								<p class="eventDescription">Ultimate Frisbee</p>
-								<p class="dateAndTime">April 9 @ <br> 10:00 a.m.</p>
+								<p class="eventDescription">Soccer Game</p>
+								<p class="dateAndtime">April 9 @ <br> 10:00 a.m.</p>
 							</div>
 						</div>  
 						</a>
-					</div> 
-
-
-					<!--Third Event-->
-					<div class="eventContainer">
-						<a href="" class="eventLink"> 
-						<div class="event" id="event3">
-							<img src="images/cookoff.png" class="eventPhoto"> 
-							<div class="going">
-								<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
-							</div>
-							<div class="eventDetails">
-								<p class="eventDescription">Chili Cookoff!</p>
-								<p class="dateAndTime">April 15 @ <br> 6:00 p.m.</p>
-							</div>  
-						</div> 
-						</a>
-					</div> 
-
-					<!--Fourth Event-->
-					<div class="eventContainer">
-						<a href="" class="eventLink"> 
-						<div class="event" id="event4">
-							<img src="images/basketball2.png" class="eventPhoto">
-							<div class="going">
-								<input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going
-							</div>
-							<div class="eventDetails">
-								<p class="eventDescription">Pickup Basketball</p>
-								<p class="dateAndTime">April 30 @ <br> 9:00 p.m.</p>
-							</div>
-						</div>  
-						</a>
-					</div> 
+					</div>  
 					
 					<div class="trashLink">
-						<a href="./trash.html">Trash</a>
+						<a href="./emptyTrash.html">Empty Trash</a>
 					</div>
 
 
