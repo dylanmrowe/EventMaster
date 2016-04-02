@@ -28,23 +28,23 @@ a {
 	padding:12px 0px 0px 20px;
 }
 
-#event2photo {
-	padding-top: 20px;
-}
+/*#event2photo {*/
+	/*padding-top: 20px;*/
+/*}*/
 
-#event4photo {
-	padding-top: 15px;
-}
+/*#event4photo {*/
+	/*padding-top: 15px;*/
+/*}*/
 
 .eventDetails {
 	padding: 0px 0px 0px 130px;
 }
 
-.dateAndtime {
+.dateAndTime {
 	margin-bottom: 1px;
 }
 
-form {
+.going {
 	text-decoration: none;
 	float: right;
 	padding-top: 16px;
