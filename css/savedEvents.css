@@ -21,11 +21,14 @@ a {
 
 .events {
 	border-bottom: thin solid gray;
+	overflow-y: scroll;
+	height: 413px;
 }
 
 .eventPhoto {
 	float:left;  
 	padding:12px 0px 0px 20px;
+	max-width: 90px;
 }
 
 /*#event2photo {*/

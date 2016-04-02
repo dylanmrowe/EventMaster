@@ -1,19 +1,46 @@
 {"events" : [
 	{
-		"eventName": "SampleEvent",
-		"eventImg": "url",
-		"eventDescription" : "This is a fun event",
-		"eventDate" : "",
-		"eventTime" : "",
+		"eventName": "Polka Party",
+		"eventImg": "images/Traveling-Musicians.jpg",
+		"eventDescription" : "Polka Party",
+		"eventDate" : "2016-04-01",
+		"eventTime" : "6:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url"
 	},
 	{
-		"eventName": "SampleEvent2",
-		"eventImg": "url",
-		"eventDescription" : "This is a fun event",
-		"eventDate" : "",
-		"eventTime" : "",
+		"eventName": "Mario Kart Party",
+		"eventImg": "images/mario.png",
+		"eventDescription" : "Mario Kart Party",
+		"eventDate" : "2016-04-16",
+		"eventTime" : "7:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url"
+	},
+	{
+		"eventName": "Ultimate Frisbee",
+		"eventImg": "images/frisbee1.png",
+		"eventDescription" : "Ultimate Frisbee",
+		"eventDate" : "2016-04-09",
+		"eventTime" : "10:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url"
+	},
+	{
+		"eventName": "Chili Cookoff!",
+		"eventImg": "images/cookoff.png",
+		"eventDescription" : "Chili Cookoff!",
+		"eventDate" : "2016-04-15",
+		"eventTime" : "6:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url"
+	},
+	{
+		"eventName": "Pickup Basketball",
+		"eventImg": "images/basketball2.png",
+		"eventDescription" : "Pickup Basketball",
+		"eventDate" : "2016-04-30",
+		"eventTime" : "9:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url"
 	}
