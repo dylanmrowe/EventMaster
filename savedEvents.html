@@ -4,35 +4,35 @@
 <!--EVENT MASTER APP PAGE TEMPLATE-->	
 <!--Use this template to begin making each new page-->
 	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	
-	
-<script>
-	//Add Javascript stuff (like functions for clicking specific buttons) here
-	
-	var ShowMenu = false;
-	$(document).ready(function() 
-	{
-		
-	});
-	
-	
-	function clickedMenu(){
-		if(!ShowMenu){
-			$(".menu").load("menu.html");
-			ShowMenu = !ShowMenu;
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script src="js/swipingMethods.js"></script>
+	<script>
+		//Add Javascript stuff (like functions for clicking specific buttons) here
+
+		var ShowMenu = false;
+		$(document).ready(function()
+		{
+
+		});
+
+
+		function clickedMenu(){
+			if(!ShowMenu){
+				$(".menu").load("menu.html");
+				ShowMenu = !ShowMenu;
+			}
+			else{
+				$(".menu").html("");
+				ShowMenu = !ShowMenu;
+			}
 		}
-		else{
-			$(".menu").html("");
-			ShowMenu = !ShowMenu;
+
+		function clickedEvent() {
+			$(".event").load("event.html");
 		}
-	}
-	
-	function clickedEvent() {
-		$(".event").load("event.html");
-	}
-	
-</script>
+
+	</script>
 	
 	<!--ALWAYS INCLUDE THESE CSS FILES-->
 	<link rel="stylesheet" type="text/css" href="./css/buttons.css">
