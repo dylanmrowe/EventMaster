@@ -7,3 +7,28 @@
 .bottomSection{
 	margin-top: 90%;
 }
+
+.createForm{
+	height: 91%;
+}
+
+.eventinput{
+	vertical-align: middle;
+	width:100%;
+}
+
+/*input{
+	width:100%;
+}*/
+
+.locationinput{
+	vertical-align: middle;
+}
+
+.descriptioninput{
+
+}
+
+.createicon{
+	vertical-align: middle;
+}

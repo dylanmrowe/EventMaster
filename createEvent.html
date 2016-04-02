@@ -4,17 +4,18 @@
 <!--EVENT MASTER APP PAGE TEMPLATE-->	
 <!--Use this template to begin making each new page-->
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/menu.js"></script>
+	
+	
+<script>
+	//Add Javascript stuff (like functions for clicking specific buttons) here
 
-	<script src="js/swipingMethods.js"></script>
-	<script src="js/menu.js"></script>
-
-	<script>
-		//Add Javascript stuff (like functions for clicking specific buttons) here
-		$(document).ready(function()
-		{
-
-		});
+	$(document).ready(function() 
+	{
+		
+	});
+	
 
 	/*function AJAXCALL(){
 		$.ajax({
@@ -48,7 +49,7 @@
 		}); //end ajax
 	}*/
 	
-	</script>
+</script>
 	
 	<!--ALWAYS INCLUDE THESE CSS FILES-->
 	<link rel="stylesheet" type="text/css" href="./css/buttons.css">
@@ -91,14 +92,19 @@
 					<br>
 					<span>Create</span>
 					<br>
-					<input type="text" placeholder="Event Name"></input>
-					<div class="dateinput">
-						<img src="./images/calendar.png">
+					<div class="eventinput"  width="100%">
+						<input type="text" placeholder="Event Name"></input>
+					</div>
+					<div class="eventinput">
+						<img class ="createicon" src="./images/calendar.png"  height="35px">
 						<input type="text" placeholder="Date"></input>
 					</div>
-					<div class="locationinput">
-						<img src="./images/locationmarker.png" height="">
-						<input type="text" placeholder="Location"></input>
+					<div class="eventinput">
+						<img class ="createicon" src="./images/locationmarker.png" height="35px">
+						<input type="text" placeholder="Location"  width="100%"></input>
+					</div>
+					<div class="eventinput"> 
+						<textarea name="paragraph_text" cols="30" rows="10"></textarea>
 					</div>
 				</div>
 				<div class="bottomSection">
@@ -116,5 +122,3 @@
 
 </body>
 	
-
-</html>

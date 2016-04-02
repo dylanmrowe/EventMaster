@@ -6,7 +6,8 @@
 		"eventDate" : "2016-04-01",
 		"eventTime" : "6:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url"
+		"friendsGoing" : "url",
+		"trashed" : false
 	},
 	{
 		"eventName": "Mario Kart Party",
@@ -15,7 +16,8 @@
 		"eventDate" : "2016-04-16",
 		"eventTime" : "7:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url"
+		"friendsGoing" : "url",
+		"trashed" : false
 	},
 	{
 		"eventName": "Ultimate Frisbee",
@@ -24,7 +26,8 @@
 		"eventDate" : "2016-04-09",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url"
+		"friendsGoing" : "url",
+		"trashed" : false
 	},
 	{
 		"eventName": "Chili Cookoff!",
@@ -33,7 +36,8 @@
 		"eventDate" : "2016-04-15",
 		"eventTime" : "6:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url"
+		"friendsGoing" : "url",
+		"trashed" : false
 	},
 	{
 		"eventName": "Pickup Basketball",
@@ -42,6 +46,27 @@
 		"eventDate" : "2016-04-30",
 		"eventTime" : "9:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url"
+		"friendsGoing" : "url",
+		"trashed" : false
+	},
+	{
+		"eventName": "Study session",
+		"eventImg": "images/study.png",
+		"eventDescription" : "Study session",
+		"eventDate" : "2016-04-03",
+		"eventTime" : "7:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"trashed" : true
+	},
+	{
+		"eventName": "Soccer Game",
+		"eventImg": "images/soccer.png",
+		"eventDescription" : "Soccer Game",
+		"eventDate" : "2016-04-09",
+		"eventTime" : "10:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"trashed" : true
 	}
 ]}
