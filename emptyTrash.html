@@ -1,0 +1,80 @@
+<html>
+<head>
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<!--EVENT MASTER APP PAGE TEMPLATE-->	
+<!--Use this template to begin making each new page-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script src="js/swipingMethods.js"></script>
+	<script src="js/menu.js"></script>
+	<script>
+		//Add Javascript stuff (like functions for clicking specific buttons) here
+		$(document).ready(function()
+		{
+
+		});
+
+		function clickedEvent() {
+			$(".event").load("event.html");
+		}
+
+	</script>
+	
+	<!--ALWAYS INCLUDE THESE CSS FILES-->
+	<link rel="stylesheet" type="text/css" href="./css/buttons.css">
+	<link rel="stylesheet" type="text/css" href="./css/allpages.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+	
+	<!--CHANGE 'samplepage.css' TO YOUR SPECIFIC PAGE CSS FILE HERE-->
+	<link rel="stylesheet" type="text/css" href="./css/emptyTrash.css">
+	<!--Or, just delete this if all your css is in this html file -->
+	
+</head>
+
+
+<body>
+	
+	<div class="phone">
+		<img class="phoneoutline" src="images/phone-outline.png">
+		
+		<div class="phoneScreen">
+			
+			<!--HEADER - Make sure the header is consistent across all pages-->
+			<div class="header">
+
+				<!--Maybe add a back button (we can also use the back button at the bottom-->
+				<img class="hamburgermenu" src="images/hamburgermenu.png" onclick="clickedMenu()">
+				<div class="title">Event Master</div>
+
+			</div>
+			<!--END HEADER-->
+			
+			<!--MENU - Don't mess with this div-->
+			<div class="menu">
+			
+			</div>
+			<!--END MENU-->
+
+			<!--PUT ALL YOUR PAGE STUFF IN HERE-->
+			<div class="emptyTrash">
+
+				<!--Title of page-->
+				<div class=>
+					<h3>Trashed Events</h3>
+					<a href="./savedEvents.html"><p id="returnLink">Return to My Saved Events</p></a>
+				</div>
+
+			</div>
+			<!--STOP ADDING PAGE STUFF-->
+			
+		</div>
+		
+	</div>
+
+
+
+</body>
+	
+
+</html>
