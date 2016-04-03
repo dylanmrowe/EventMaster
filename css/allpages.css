@@ -39,9 +39,13 @@ body{
 }
 
 .header .title{
+	position:absolute;
 	color:white;
 	font-size: 24px;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	margin-top: 10px;
+	margin-left: 140px;
+	text-align: center;
 }
 
 .hamburgermenu{
@@ -49,7 +53,7 @@ body{
 	align-self: flex-start;
 	width:35px;
 	margin-left:10px;
-	margin-top:10px;
+	margin-top:11px;
 }
 
 .hidden{

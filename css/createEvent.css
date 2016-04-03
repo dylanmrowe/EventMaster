@@ -5,11 +5,16 @@
 }
 
 .bottomSection{
-	margin-top: 90%;
+	position: absolute;
+	/*margin-top: 90%;*/
+	text-align: center;
+	vertical-align: middle;
 }
 
 .createForm{
-	height: 91%;
+	height: 250px;
+	overflow: scroll;
+	overflow-x: hidden;
 }
 
 .eventinput{
@@ -17,17 +22,27 @@
 	width:100%;
 }
 
+.eventnameIN{
+	line-height: 18px;
+	font-size: 18px;
+	width:80%;
+}
+
+.pagetitle{
+	font-size: 24px;
+}
+
 /*input{
 	width:100%;
 }*/
 
-.locationinput{
+/*.locationinput{
 	vertical-align: middle;
 }
 
 .descriptioninput{
 
-}
+}*/
 
 .createicon{
 	vertical-align: middle;
