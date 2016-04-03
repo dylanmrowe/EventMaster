@@ -1,18 +1,30 @@
 .pagecontents{
 	margin: 0 auto;
-	padding:10px;
+	
 	text-align: center;
 }
 
 .bottomSection{
-	position: absolute;
+	/**/
 	/*margin-top: 90%;*/
 	text-align: center;
 	vertical-align: middle;
+	height:65px;
+	padding:0px;
+	border-top: 2px solid black;
+	/*border-bottom: 1px solid black;*/
+}
+
+.buttomButton{
+	text-align: center;
+	vertical-align: middle;
+	margin-top:15px !important;
+	height:45px;
 }
 
 .createForm{
-	height: 250px;
+	padding:10px;
+	height: 365px;
 	overflow: scroll;
 	overflow-x: hidden;
 }
@@ -25,24 +37,12 @@
 .eventnameIN{
 	line-height: 18px;
 	font-size: 18px;
-	width:80%;
+	width:75%;
 }
 
 .pagetitle{
 	font-size: 24px;
 }
-
-/*input{
-	width:100%;
-}*/
-
-/*.locationinput{
-	vertical-align: middle;
-}
-
-.descriptioninput{
-
-}*/
 
 .createicon{
 	vertical-align: middle;

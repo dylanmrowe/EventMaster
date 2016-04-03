@@ -16,39 +16,6 @@
 		
 	});
 	
-
-	/*function AJAXCALL(){
-		$.ajax({
-		  url: "./allEvents.json",
-		  success: function( data ) 
-		  {
-			console.log(data);
-			var i;
-			  
-			for(i=0; i<data.length; i++){
-				var j;
-				for(j=0; j<data[i].keywords.length; j++){
-					
-					if(data[i].keywords[j] == toSearch){
-						$( "#all" ).append( '<img src="'+data[i].thumbnail+'">');
-						
-						$("#all").append( "<b>"+data[i].title+"</b><br>" );
-						$("#all").append("Keywords:<br>");
-						
-						var k;
-						for(k=0; k<data[i].keywords.length; k++){
-							$("#all").append( data[i].keywords[k] +"; ");
-						}
-						$("#all").append("<br><br>");
-						break;
-					}
-				}
-			}
-			  
-		  }
-		}); //end ajax
-	}*/
-	
 </script>
 	
 	<!--ALWAYS INCLUDE THESE CSS FILES-->
@@ -88,10 +55,12 @@
 
 			<!--PUT ALL YOUR PAGE STUFF IN HERE-->
 			<div class="pagecontents">
-				<br>
-				<div class="pagetitle">Create</div>
-				<br>
+
 				<div class="createForm">
+					
+					<br>
+					<div class="pagetitle">Create</div>
+					<br>
 
 					<div class="eventinput" >
 						<input type="text" class="eventnameIN" placeholder="Event Name"></input>
