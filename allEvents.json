@@ -4,7 +4,7 @@
 		"eventImg": "images/Traveling-Musicians.jpg",
 		"eventDescription" : "Polka Party",
 		"eventDate" : "2016-04-10",
-		"eventTime" : "6:00 p.m.",
+		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
 		"trashed" : false
@@ -14,7 +14,7 @@
 		"eventImg": "images/mario.png",
 		"eventDescription" : "Mario Kart Party",
 		"eventDate" : "2016-04-12",
-		"eventTime" : "7:00 p.m.",
+		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
 		"trashed" : false
@@ -34,7 +34,7 @@
 		"eventImg": "images/cookoff.png",
 		"eventDescription" : "Chili Cookoff!",
 		"eventDate" : "2016-04-15",
-		"eventTime" : "6:00 p.m.",
+		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
 		"trashed" : false
@@ -44,7 +44,7 @@
 		"eventImg": "images/basketball2.png",
 		"eventDescription" : "Pickup Basketball",
 		"eventDate" : "2016-04-18",
-		"eventTime" : "9:00 p.m.",
+		"eventTime" : "09:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
 		"trashed" : false
@@ -54,7 +54,7 @@
 		"eventImg": "images/study.png",
 		"eventDescription" : "Study session",
 		"eventDate" : "2016-04-20",
-		"eventTime" : "7:00 p.m.",
+		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
 		"trashed" : true
