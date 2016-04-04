@@ -77,9 +77,6 @@ function renderEvent(event, eventContainer) {
         '<a href="#" class="eventLink">' +
         '<div class="event">' +
         '<img src="' + img + '" class="eventPhoto">' +
-        '<div class="going">' +
-        action +
-        '</div>' +
         '<div class="eventDetails">' +
         '<p class="eventDescription">' + description + '</p>' +
         '<p class="dateAndTime"> ' + eventDate.format('MMMM Do [@] h:mm a') + '<br> &nbsp </p>' +
