@@ -8,14 +8,15 @@ $(function () {
         return (('ontouchstart' in window) || (navigator.MaxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
     }
 
-    var significantDistance = 30;
+    var isTinderStyle = true;
+    var significantDistance = 20;
     var pressPoint = {x:0, y:0};
     var releasePoint = {x:0, y:0};
 
     var RELEASE = function(e) {
         pressPoint.x = e.pageX;
         pressPoint.y = e.pageY;
-        console.log("Pressed");
+        //console.log("Pressed");
 
         return true;
     }
@@ -23,7 +24,7 @@ $(function () {
     var PRESS = function(e) {
         releasePoint.x = e.pageX;
         releasePoint.y = e.pageY;
-        console.log("Released");
+        //console.log("Released");
 
         var left = pressPoint.x - releasePoint.x;
         var right = releasePoint.x - pressPoint.x;
@@ -41,6 +42,15 @@ $(function () {
                 text = "UP";
             } else if(max == down) {
                 text = "DOWN";
+            }
+        }
+
+        if(isTinderStyle) {
+            if(text == "UP") {
+                text = "INTERESTED";
+            } 
+            else if(text == "DOWN") {
+                text = "TRASHED";
             }
         }
 
