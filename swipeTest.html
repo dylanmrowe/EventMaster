@@ -16,40 +16,9 @@
     <script src="js/swipingMethods.js"></script>
     <!--script src="js/menu.js"></script-->
 
-
-<style>
-.error {
-    width:200px;
-    height:20px;
-    height:auto;
-    position:absolute;
-    left:50%;
-    margin-left:-100px;
-    bottom:10px;
-    background-color: #383838;
-    color: #F0F0F0;
-    font-family: Calibri;
-    font-size: 20px;
-    padding:10px;
-    text-align:center;
-    border-radius: 2px;
-    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
-    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
-    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
-}
-
-</style>
 </head>
 <body>
-    <label id="direction">NONE</label>
-    <div class='error' style='display:none'>Event Created</div>
-    <button data-text='I did something!'>Do something!</button>
-    <script type="text/javascript">$('.error').fadeIn(400).delay(3000).fadeOut(400); //fade out after 3 seconds
-    $('button').click(function () {
-    $('.error').text($(this).data('text')).fadeIn(400).delay(3000).fadeOut(400); 
-    });
-
-</script>
+    <div class='toast' style='display:none'>Event Created</div>
 </body>
 </html>
 
