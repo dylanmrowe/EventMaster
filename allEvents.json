@@ -27,7 +27,7 @@
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "going"
+		"attendingStatus" : "interested"
 	},
 	{
 		"eventName": "Mario Kart Party",
@@ -47,7 +47,7 @@
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "going"
+		"attendingStatus" : "interested"
 	},
 	{
 		"eventName": "Pickup Basketball",
@@ -67,7 +67,7 @@
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "interested"
+		"attendingStatus" : "going"
 	},
 	{
 		"eventName": "Study session",
