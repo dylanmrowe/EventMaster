@@ -7,37 +7,47 @@
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "going"
 	},
 	{
-		"eventName": "Mario Kart Party",
-		"eventImg": "images/mario.png",
-		"eventDescription" : "Mario Kart Party",
-		"eventDate" : "2016-04-12",
-		"eventTime" : "07:00 p.m.",
-		"eventLocation" : "",
-		"friendsGoing" : "url",
-		"trashed" : false
-	},
-	{
-		"eventName": "Ultimate Frisbee",
-		"eventImg": "images/frisbee1.png",
-		"eventDescription" : "Ultimate Frisbee",
-		"eventDate" : "2016-04-13",
+		"eventName": "End of Semester Party",
+		"eventImg": "images/party.png",
+		"eventDescription" : "End of Semester Party",
+		"eventDate" : "2016-04-19",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "going"
 	},
 	{
 		"eventName": "Chili Cookoff!",
 		"eventImg": "images/cookoff.png",
 		"eventDescription" : "Chili Cookoff!",
-		"eventDate" : "2016-04-15",
+		"eventDate" : "2016-04-12",
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "going"
+	},
+	{
+		"eventName": "Mario Kart Party",
+		"eventImg": "images/mario.png",
+		"eventDescription" : "Mario Kart Party",
+		"eventDate" : "2016-04-13",
+		"eventTime" : "07:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "going"
+	},
+	{
+		"eventName": "Ultimate Frisbee",
+		"eventImg": "images/frisbee1.png",
+		"eventDescription" : "Ultimate Frisbee",
+		"eventDate" : "2016-04-15",
+		"eventTime" : "10:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "going"
 	},
 	{
 		"eventName": "Pickup Basketball",
@@ -47,7 +57,17 @@
 		"eventTime" : "09:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "interested"
+	},
+	{
+		"eventName": "Soccer Game",
+		"eventImg": "images/soccer.png",
+		"eventDescription" : "Soccer Game",
+		"eventDate" : "2016-04-15",
+		"eventTime" : "10:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "interested"
 	},
 	{
 		"eventName": "Study session",
@@ -57,16 +77,16 @@
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : true
+		"attendingStatus" : "trashed"
 	},
 	{
-		"eventName": "Soccer Game",
+		"eventName": "Soccer Tournament",
 		"eventImg": "images/soccer.png",
 		"eventDescription" : "Soccer Game",
 		"eventDate" : "2016-04-30",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : true
+		"attendingStatus" : "trashed"
 	}
 ]}
