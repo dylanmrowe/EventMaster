@@ -10,7 +10,7 @@ function renderAllActiveEvents() {
         eventContainer.html("");
 
         events.forEach(function(event) {
-            if (!event.trashed) {
+            if (event.attendingStatus == "interested" || event.attendingStatus == "going") {
                 renderEvent(event, eventContainer);
             }
         });
@@ -26,13 +26,12 @@ function renderFutureEvents() {
         eventContainer.html("");
 
         events.forEach(function(event) {
-            if (!event.trashed) {
+            if (event.attendingStatus == "going") {
                 var eventDate = moment(event.eventDate + ' ' + event.eventTime);
-                if (eventDate.isAfter(Date.now())) {
-                    renderEvent(event, eventContainer);
-                }
+                renderEvent(event, eventContainer);
             }
         });
+		
     })
 
 }
@@ -45,13 +44,12 @@ function renderTrashedEvents() {
         eventContainer.html("");
 
         events.forEach(function(event) {
-            if (event.trashed) {
+            if (event.attendingStatus == "trashed") {
                 var eventDate = moment(event.eventDate + ' ' + event.eventTime);
-                if (eventDate.isAfter(Date.now())) {
-                    renderEvent(event, eventContainer);
-                }
+                renderEvent(event, eventContainer);
             }
         });
+	
     })
 
 }
@@ -65,11 +63,8 @@ function renderEvent(event, eventContainer) {
     if (eventDate.isBefore(Date.now())) {
         action = '<button class="smallButton">Rate Event</button>';
     }
-    else if (event.trashed) {
+    else if (event.attendingStatus == "trashed") {
         action = '<button class="smallButton">Remove</button>';
-    }
-    else {
-        action = '<label><input type="checkbox" name="attendingStatus" value="going" class="checkbox">Going</label>';
     }
 
     eventContainer.append("" +
