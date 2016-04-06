@@ -1,9 +1,9 @@
 {"events" : [
 	{
 		"eventName": "End of Semester Party",
-		"eventImg": "images/party.png",
-		"eventDescription" : "End of Semester Party",
-		"eventDate" : "2016-04-10",
+		"eventImg": "images/semester.jpg",
+		"eventDescription" : "Blow off some steam and eat some good food",
+		"eventDate" : "2016-04-09",
 		"eventTime" : "10:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
@@ -11,10 +11,20 @@
 		"notification": "true"
 	},
 	{
+		"eventName": "Study session",
+		"eventImg": "images/study.jpg",
+		"eventDescription" : "It's finals week, time to get crazy!",
+		"eventDate" : "2016-04-10",
+		"eventTime" : "07:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "interested",
+		"notification": "false"
+	},
+	{
 		"eventName": "Polka Party",
 		"eventImg": "images/Traveling-Musicians.jpg",
-		"eventImgBig" : "images/Traveling-Musicians.jpg",
-		"eventDescription" : "Polka Party",
+		"eventDescription" : "Kick of your shoes and come get funky!",
 		"eventDate" : "2016-04-11",
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
@@ -24,8 +34,8 @@
 	},
 	{
 		"eventName": "Hiking",
-		"eventImg": "images/hiking.png",
-		"eventDescription" : "Hiking",
+		"eventImg": "images/hiking.jpg",
+		"eventDescription" : "Pull out your dad's hiking boots and meet us at the base of the mountain!",
 		"eventDate" : "2016-04-13",
 		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
@@ -35,8 +45,8 @@
 	},
 	{
 		"eventName": "Chili Cookoff!",
-		"eventImg": "images/cookoff.png",
-		"eventDescription" : "Chili Cookoff!",
+		"eventImg": "images/cookoff.jpg",
+		"eventDescription" : "This won't be your Aunt Pat's chili she feeds you on Sunday...",
 		"eventDate" : "2016-04-15",
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
@@ -46,9 +56,8 @@
 	},
 	{
 		"eventName": "Mario Kart Party",
-		"eventImg": "images/mario.png",
-		"eventImgBig": "images/marioKartBig.jpeg",
-		"eventDescription" : "Mario Kart Party",
+		"eventImg": "images/mario.jpg",
+		"eventDescription" : "Time to throw it back, come when you can!",
 		"eventDate" : "2016-04-15",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
@@ -58,8 +67,8 @@
 	},
 	{
 		"eventName": "Boating",
-		"eventImg": "images/boating.png",
-		"eventDescription" : "Boating",
+		"eventImg": "images/boating.jpg",
+		"eventDescription" : "Join us in our search for the Lochness monster and learn to wakeboard along the way!",
 		"eventDate" : "2016-04-16",
 		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
@@ -70,7 +79,7 @@
 	{
 		"eventName": "Subway Party",
 		"eventImg": "images/subwayFront.jpeg",
-		"eventDescription" : "Subway Party",
+		"eventDescription" : "Come eat off the stress of the semester with us!",
 		"eventDate" : "2016-04-18",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
@@ -80,19 +89,18 @@
 	{
 		"eventName": "Ultimate Frisbee",
 		"eventImg": "images/frisbee1.png",
-		"eventImgBig": "images/frisbeeBig.jpeg",
-		"eventDescription" : "Ultimate Frisbee",
+		"eventDescription" : "The weather is finally good enough to play again!",
 		"eventDate" : "2016-04-20",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "interested",
+		"attendingStatus" : "trashed",
 		"notification": "false"
 	},
 	{
-		"eventName": "Pickup Basketball",
-		"eventImg": "images/basketball2.png",
-		"eventDescription" : "Pickup Basketball",
+		"eventName": "Crochet Party",
+		"eventImg": "images/crochet.jpg",
+		"eventDescription" : "Crochet- it's not just something for your Grandma!",
 		"eventDate" : "2016-04-24",
 		"eventTime" : "09:00 p.m.",
 		"eventLocation" : "",
@@ -102,35 +110,24 @@
 	},
 	{
 		"eventName": "Soccer Game",
-		"eventImg": "images/soccer.png",
-		"eventDescription" : "Soccer Game",
+		"eventImg": "images/soccer.jpg",
+		"eventDescription" : "Meet at Southwood park on Saturday if you'd like to play!",
 		"eventDate" : "2016-04-25",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "going",
+		"attendingStatus" : "trashed",
 		"notification": "false"
 	},
 	{
 		"eventName": "Rock Climbing",
-		"eventImg": "images/rockClimbing.png",
-		"eventDescription" : "Rock Climbing",
+		"eventImg": "images/climbing.jpg",
+		"eventDescription" : "We have enough equipment for 10 of us to go this weekend!",
 		"eventDate" : "2016-04-30",
 		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
 		"attendingStatus" : "interested",
-		"notification": "false"
-	},
-	{
-		"eventName": "Study session",
-		"eventImg": "images/study.png",
-		"eventDescription" : "Study session",
-		"eventDate" : "2016-04-28",
-		"eventTime" : "07:00 p.m.",
-		"eventLocation" : "",
-		"friendsGoing" : "url",
-		"attendingStatus" : "trashed",
 		"notification": "false"
 	}
 ]}
