@@ -92,7 +92,7 @@
 	},
 	{
 		"eventName": "Ultimate Frisbee",
-		"eventImg": "images/frisbee1.png",
+		"eventImg": "images/frisbeeBig.jpg",
 		"eventDescription" : "The weather is finally good enough to play again!",
 		"eventDate" : "2016-04-20",
 		"eventTime" : "10:00 a.m.",
