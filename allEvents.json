@@ -12,6 +12,7 @@
 	{
 		"eventName": "Mario Kart Party",
 		"eventImg": "images/mario.png",
+		"eventImgBig": "images/marioKartBig.jpeg",
 		"eventDescription" : "Mario Kart Party",
 		"eventDate" : "2016-04-12",
 		"eventTime" : "07:00 p.m.",

@@ -5,6 +5,8 @@
 <!--Use this template to begin making each new page-->
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/events.js"></script>
     
     
 <script>
@@ -13,7 +15,7 @@
     var ShowMenu = false;
     $(document).ready(function() 
     {
-        
+        renderAllActiveEvents();
     });
     
     
@@ -37,6 +39,7 @@
     
     <!--CHANGE 'samplepage.css' TO YOUR SPECIFIC PAGE CSS FILE HERE-->
     <link rel="stylesheet" type="text/css" href="./css/samplepage.css">
+    <link rel="stylesheet" type="text/css" href="./css/events.css">
     <!--Or, just delete this if all your css is in this html file -->
     
 </head>
@@ -65,12 +68,11 @@
 
             <!--PUT ALL YOUR PAGE STUFF IN HERE-->
             <a href="subwayEvent.html">
-            <div class="pagecontents">
-                <img src="images/marioKartBig.jpeg" style="width:99%;">
-                <img src="images/marioEventContents.png" style="width:99%; height:40%;">
-
-   
-            </div>
+                <div class="events"></div>
+                <!--<img src="images/marioKartBig.jpeg" style="width:100%;">-->
+                <!--<div class="pagecontents">-->
+                    <!--<img src="images/marioEventContents.png" style="width:99%; height:40%;">-->
+                <!--</div>-->
             </a>
             <!--STOP ADDING PAGE STUFF-->
             
