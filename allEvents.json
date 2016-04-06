@@ -17,7 +17,7 @@
 		"eventDate" : "2016-04-10",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : ["R2-D2", "C-3PO"],
 		"attendingStatus" : "interested",
 		"notification": "false"
 	},
@@ -108,7 +108,7 @@
 		"eventDate" : "2016-04-24",
 		"eventTime" : "09:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : [],
+		"friendsGoing" : ["Chewbacca"],
 		"attendingStatus" : "interested",
 		"notification": "false"
 	},
@@ -131,9 +131,8 @@
 		"eventDate" : "2016-04-30",
 		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
-		"friendsGoing" : ["R2-D2", "C-3PO", "Chewbacca"],
+		"friendsGoing" : [],
 		"attendingStatus" : "interested",
 		"notification": "false"
-		
 	}
 ]}
