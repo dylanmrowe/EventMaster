@@ -1,5 +1,16 @@
 {"events" : [
 	{
+		"eventName": "End of Semester Party",
+		"eventImg": "images/party.png",
+		"eventDescription" : "End of Semester Party",
+		"eventDate" : "2016-04-10",
+		"eventTime" : "10:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "going",
+		"notification": "true"
+	},
+	{
 		"eventName": "Polka Party",
 		"eventImg": "images/Traveling-Musicians.jpg",
 		"eventDescription" : "Polka Party",
@@ -7,17 +18,19 @@
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "going"
+		"attendingStatus" : "going",
+		"notification": "true"
 	},
 	{
-		"eventName": "End of Semester Party",
-		"eventImg": "images/party.png",
-		"eventDescription" : "End of Semester Party",
-		"eventDate" : "2016-04-12",
-		"eventTime" : "10:00 a.m.",
+		"eventName": "Hiking",
+		"eventImg": "images/hiking.png",
+		"eventDescription" : "Hiking",
+		"eventDate" : "2016-04-13",
+		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "going"
+		"attendingStatus" : "going",
+		"notification": "true"
 	},
 	{
 		"eventName": "Chili Cookoff!",
@@ -27,18 +40,31 @@
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "interested"
+		"attendingStatus" : "interested",
+		"notification": "false"
 	},
 	{
 		"eventName": "Mario Kart Party",
 		"eventImg": "images/mario.png",
 		"eventDescription" : "Mario Kart Party",
-		"eventDate" : "2016-04-18",
+		"eventDate" : "2016-04-15",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "going"
+		"attendingStatus" : "going",
+		"notification": "true"
 	},
+	{
+		"eventName": "Boating",
+		"eventImg": "images/boating.png",
+		"eventDescription" : "Boating",
+		"eventDate" : "2016-04-16",
+		"eventTime" : "07:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "going",
+		"notification": "true"
+	},	
 	{
 		"eventName": "Ultimate Frisbee",
 		"eventImg": "images/frisbee1.png",
@@ -47,7 +73,8 @@
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "interested"
+		"attendingStatus" : "interested",
+		"notification": "false"
 	},
 	{
 		"eventName": "Pickup Basketball",
@@ -57,7 +84,8 @@
 		"eventTime" : "09:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "interested"
+		"attendingStatus" : "interested",
+		"notification": "false"
 	},
 	{
 		"eventName": "Soccer Game",
@@ -67,7 +95,19 @@
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "going"
+		"attendingStatus" : "going",
+		"notification": "false"
+	},
+	{
+		"eventName": "Rock Climbing",
+		"eventImg": "images/rockClimbing.png",
+		"eventDescription" : "Rock Climbing",
+		"eventDate" : "2016-04-30",
+		"eventTime" : "07:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "interested",
+		"notification": "false"
 	},
 	{
 		"eventName": "Study session",
@@ -77,16 +117,7 @@
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"attendingStatus" : "trashed"
-	},
-	{
-		"eventName": "Soccer Tournament",
-		"eventImg": "images/soccer.png",
-		"eventDescription" : "Soccer Game",
-		"eventDate" : "2016-04-30",
-		"eventTime" : "10:00 a.m.",
-		"eventLocation" : "",
-		"friendsGoing" : "url",
-		"attendingStatus" : "trashed"
+		"attendingStatus" : "trashed",
+		"notification": "false"
 	}
 ]}
