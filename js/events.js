@@ -65,6 +65,7 @@ function renderTrashedEvents() {
 function renderEvent(event, eventContainer) {
     var img = event.eventImg;
     var description = event.eventName;
+    var sampleString = "Polka Party";
     var eventDate = moment(event.eventDate + ' ' + event.eventTime);
 
     //var action = '';
@@ -77,7 +78,7 @@ function renderEvent(event, eventContainer) {
 
     eventContainer.append("" +
         '<div class="eventContainer">' +
-        '   <a href="#" class="eventLink">' +
+        '   <a onclick="showBigPage(\''+event.eventName+'\')" href="#" class="eventLink">' +
         '      <div class="event">' +
         '          <img src="' + img + '" class="eventPhoto">' +
         '          <div class="eventDetails">' +
@@ -111,4 +112,58 @@ function renderEventLarge(event, eventContainer) {
         '       </div>' +
         '   </div>' +
         '</div>');
+}
+
+function showBigPage(eventName){
+    var eventList = [];
+    var index = 0;
+    var eventContainer = $(".savedEvents");
+
+
+    getEvents(function(events) {
+
+        eventList = events;
+        eventContainer.html("");
+
+        while (events[index].eventName != eventName) {
+            index++;
+        }
+
+        renderEventLarge(events[index], eventContainer);
+
+        $("body").mouseup(function(e) {
+            RELEASE(e
+                    , function() {
+                        index++;
+                        if (index < eventList.length) {
+                            /*while(events[index].attendingStatus != "interested" || events[index].attendingStatus != "going"){
+                                
+                                if(index >= eventList.length){
+                                    return;
+                                }
+                                index++;
+                            }*/
+                            eventContainer.html("");
+                            renderEventLarge(events[index], eventContainer);
+                        }
+                        else {
+                            return;
+                        }
+                    }
+                    , function() {
+                    if (index > 0) {
+                        index--;
+                        eventContainer.html("");
+                        renderEventLarge(events[index], eventContainer);
+                    }
+                    else {
+                        var url = document.URL;
+                        location.replace(url.replace("searchEvents", "search"));
+                    }
+                }
+            );
+        });
+        $("body").mousedown(PRESS);
+        console.log("searchEvent swiping ready");
+    });
 }
