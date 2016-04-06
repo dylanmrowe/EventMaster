@@ -43,6 +43,11 @@ a {
 	padding: 0px 0px 0px 130px;
 }
 
+.eventDescription {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
 .dateAndTime {
 	margin-bottom: 1px;
 }

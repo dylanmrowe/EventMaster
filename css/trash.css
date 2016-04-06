@@ -23,6 +23,11 @@ a {
 	border-bottom: thin solid gray;
 }
 
+.eventDescription {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
 .eventPhoto {
 	float:left;  
 	padding:12px 0px 0px 20px;
