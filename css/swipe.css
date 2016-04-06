@@ -9,7 +9,7 @@
 }
 
 .toast {
-    z-index: 1;
+    z-index: 10000;
     width:200px;
     height:20px;
     height:auto;

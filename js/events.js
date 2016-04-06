@@ -103,11 +103,11 @@ function renderEventLarge(event, eventContainer) {
         '       <img src="' + img + '" class="eventPhotoLarge undraggable">' +
         '       <div class="eventInfo smallLines">' +
         '           <h2>' + name + '</h2>' +
-        '           <div class="dateAndTime smallLines">' + eventDate.format('ddd, MMM h:mm a') + '<br> &nbsp </div>' +
+        '           <div class="dateAndTime smallLines"><em>' + eventDate.format('ddd, MMM h:mm a') + '</em><br> &nbsp </div>' +
         '           <div class="eventDescription smallLines">' + description + '</div>' +
-        '           <div class="friendsGoing ">' +
-        '              <h4>Friends Going:</h4>' +
-        '              <div class="">' + friends.join(', ') + '</div>' +
+        '           <br> <br> <div class="friendsGoing ">' +
+        '              <div><b>Friends Going:</b> <br> -  ' + friends.join(', ') + '</div>' +
+ //       '              <br><div class="">' + friends.join(', ') + '</div>' +
         '           </div>' +
         '       </div>' +
         '   </div>' +
@@ -134,8 +134,9 @@ function showBigPage(eventName){
         $("body").mouseup(function(e) {
             RELEASE(e
                     , function() {
-                        index++;
+                        //index++;
                         if (index < eventList.length) {
+                            index++;
                             /*while(events[index].attendingStatus != "interested" || events[index].attendingStatus != "going"){
                                 
                                 if(index >= eventList.length){
