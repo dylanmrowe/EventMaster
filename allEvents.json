@@ -25,6 +25,7 @@
 	{
 		"eventName": "Hiking",
 		"eventImg": "images/hiking.png",
+		"eventImgBig": "images/hiking.jpg",
 		"eventDescription" : "Hiking",
 		"eventDate" : "2016-04-13",
 		"eventTime" : "07:00 a.m.",
@@ -36,6 +37,7 @@
 	{
 		"eventName": "Chili Cookoff!",
 		"eventImg": "images/cookoff.png",
+		"eventImgBig": "images/cookoff.jpg",
 		"eventDescription" : "Chili Cookoff!",
 		"eventDate" : "2016-04-15",
 		"eventTime" : "06:00 p.m.",
@@ -59,6 +61,7 @@
 	{
 		"eventName": "Boating",
 		"eventImg": "images/boating.png",
+		"eventImgBig": "images/boating.jpg",
 		"eventDescription" : "Boating",
 		"eventDate" : "2016-04-16",
 		"eventTime" : "07:00 a.m.",
@@ -103,6 +106,7 @@
 	{
 		"eventName": "Soccer Game",
 		"eventImg": "images/soccer.png",
+		"eventImgBig": "images/soccer.jpg",
 		"eventDescription" : "Soccer Game",
 		"eventDate" : "2016-04-25",
 		"eventTime" : "10:00 a.m.",
@@ -125,6 +129,7 @@
 	{
 		"eventName": "Study session",
 		"eventImg": "images/study.png",
+		"eventImg": "images/study.jpg",
 		"eventDescription" : "Study session",
 		"eventDate" : "2016-04-28",
 		"eventTime" : "07:00 p.m.",
