@@ -34,7 +34,7 @@ function renderFutureEvents() {
         eventContainer.html("");
 
         events.forEach(function(event) {
-            if (event.attendingStatus == "going") {
+            if (event.attendingStatus == "going" && event.notification == "true") {
                 //var eventDate = moment(event.eventDate + ' ' + event.eventTime);
                 renderEvent(event, eventContainer);
             }

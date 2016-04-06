@@ -4,6 +4,12 @@
 /*	text-align: center;*/
 }
 
+.myEventsTitle {
+	font-size:1em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 h3 {
 	margin-bottom: 10px;
 	text-align: center;
@@ -43,6 +49,11 @@ a {
 	padding: 0px 0px 0px 130px;
 }
 
+.eventDescription {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
 .dateAndTime {
 	margin-bottom: 1px;
 }
@@ -54,10 +65,15 @@ a {
 	padding-right: 10px;
 }
 
-.trashLink {
+.trash {
 	float: right;
 	padding-right: 10px;
-	padding-top: 10px;
+	padding-top: 5px;
+}
+
+#trashLink {
+	font-weight: bold;
+	color: 	#1C86EE;
 }
 
 

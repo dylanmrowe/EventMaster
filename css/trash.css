@@ -9,6 +9,11 @@ h3 {
 	text-align: center;
 }
 
+.trashTitle {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -21,6 +26,11 @@ a {
 
 .events {
 	border-bottom: thin solid gray;
+}
+
+.eventDescription {
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 .eventPhoto {
@@ -49,10 +59,15 @@ form {
 	padding-right: 10px;
 }
 
-.trashLink {
+.trash {
 	float: right;
 	padding-right: 10px;
 	padding-top: 10px;
+}
+
+#trashLink {
+	color: #1C86EE;
+	font-weight: bold;
 }
 
 
