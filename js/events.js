@@ -64,7 +64,7 @@ function renderTrashedEvents() {
 
 function renderEvent(event, eventContainer) {
     var img = event.eventImg;
-    var description = event.eventDescription;
+    var description = event.eventName;
     var eventDate = moment(event.eventDate + ' ' + event.eventTime);
 
     //var action = '';
