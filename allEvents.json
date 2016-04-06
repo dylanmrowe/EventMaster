@@ -6,7 +6,7 @@
 		"eventDate" : "2016-04-10",
 		"eventTime" : "10:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : ["Severus Snape", "Albus Dumbledore"],
 		"attendingStatus" : "going",
 		"notification": "true"
 	},
@@ -18,7 +18,7 @@
 		"eventDate" : "2016-04-11",
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : ["James T Kirk", "Mr Spock"],
 		"attendingStatus" : "going",
 		"notification": "true"
 	},
@@ -29,7 +29,7 @@
 		"eventDate" : "2016-04-13",
 		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : [],
 		"attendingStatus" : "going",
 		"notification": "true"
 	},
@@ -40,7 +40,7 @@
 		"eventDate" : "2016-04-15",
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : [],
 		"attendingStatus" : "interested",
 		"notification": "false"
 	},
@@ -52,7 +52,7 @@
 		"eventDate" : "2016-04-15",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : ["Princess Peach"],
 		"attendingStatus" : "going",
 		"notification": "true"
 	},
@@ -63,7 +63,7 @@
 		"eventDate" : "2016-04-16",
 		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : [],
 		"attendingStatus" : "going",
 		"notification": "true"
 	},	
@@ -74,7 +74,7 @@
 		"eventDate" : "2016-04-18",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : [],
 		"attendingStatus" : "going"
 	},
 	{
@@ -85,7 +85,7 @@
 		"eventDate" : "2016-04-20",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : ["Jeffery Holland", "Dieter Uchtdorf"],
 		"attendingStatus" : "interested",
 		"notification": "false"
 	},
@@ -96,7 +96,7 @@
 		"eventDate" : "2016-04-24",
 		"eventTime" : "09:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : [],
 		"attendingStatus" : "interested",
 		"notification": "false"
 	},
@@ -107,7 +107,7 @@
 		"eventDate" : "2016-04-25",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : [],
 		"attendingStatus" : "going",
 		"notification": "false"
 	},
@@ -118,7 +118,7 @@
 		"eventDate" : "2016-04-30",
 		"eventTime" : "07:00 a.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : [],
 		"attendingStatus" : "interested",
 		"notification": "false"
 	},
@@ -129,7 +129,7 @@
 		"eventDate" : "2016-04-28",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
-		"friendsGoing" : "url",
+		"friendsGoing" : ["R2-D2", "C-3PO", "Chewbacca"],
 		"attendingStatus" : "trashed",
 		"notification": "false"
 	}

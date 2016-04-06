@@ -94,15 +94,20 @@ function renderEventLarge(event, eventContainer) {
     var img = event.eventImgBig ? event.eventImgBig : event.eventImg;
     var description = event.eventDescription;
     var eventDate = moment(event.eventDate + ' ' + event.eventTime);
+    var friends = event.friendsGoing;
 
     eventContainer.append("" +
         '<div class="large-event-container undraggable">' +
         '   <div class="event">' +
         '       <img src="' + img + '" class="eventPhotoLarge undraggable">' +
-        '       <div class="eventInfo">' +
-        '           <h1>' + name + '</h1>' +
-        '           <div class="dateAndTime">' + eventDate.format('ddd, MMM h:mm a') + '<br> &nbsp </div>' +
-        '           <div class="eventDescription">' + description + '</div>' +
+        '       <div class="eventInfo smallLines">' +
+        '           <h2>' + name + '</h2>' +
+        '           <div class="dateAndTime smallLines">' + eventDate.format('ddd, MMM h:mm a') + '<br> &nbsp </div>' +
+        '           <div class="eventDescription smallLines">' + description + '</div>' +
+        '           <div class="friendsGoing ">' +
+        '              <h4>Friends Going:</h4>' +
+        '              <div class="">' + friends.join(', ') + '</div>' +
+        '           </div>' +
         '       </div>' +
         '   </div>' +
         '</div>');

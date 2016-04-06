@@ -4,8 +4,13 @@
 
 .eventInfo {
     padding-left: 2%;
+    padding-right: 2%;
 }
 
 .eventPhotoLarge {
     width: 100%;
+}
+
+.smallLines {
+    height: 18pt;
 }
