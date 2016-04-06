@@ -34,6 +34,7 @@ a {
 }
 
 .eventPhoto {
+	max-width: 90px;
 	float:left;  
 	padding:12px 0px 0px 20px;
 }
