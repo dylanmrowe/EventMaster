@@ -2,33 +2,23 @@
 	{
 		"eventName": "Polka Party",
 		"eventImg": "images/Traveling-Musicians.jpg",
+		"eventImgBig" : "images/Traveling-Musicians.jpg",
 		"eventDescription" : "Polka Party",
-		"eventDate" : "2016-04-10",
+		"eventDate" : "2016-04-11",
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "going"
 	},
 	{
-		"eventName": "Mario Kart Party",
-		"eventImg": "images/mario.png",
-		"eventImgBig": "images/marioKartBig.jpeg",
-		"eventDescription" : "Mario Kart Party",
+		"eventName": "End of Semester Party",
+		"eventImg": "images/party.png",
+		"eventDescription" : "End of Semester Party",
 		"eventDate" : "2016-04-12",
-		"eventTime" : "07:00 p.m.",
-		"eventLocation" : "",
-		"friendsGoing" : "url",
-		"trashed" : false
-	},
-	{
-		"eventName": "Ultimate Frisbee",
-		"eventImg": "images/frisbee1.png",
-		"eventDescription" : "Ultimate Frisbee",
-		"eventDate" : "2016-04-13",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "going"
 	},
 	{
 		"eventName": "Chili Cookoff!",
@@ -38,36 +28,78 @@
 		"eventTime" : "06:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "interested"
+	},
+	{
+		"eventName": "Mario Kart Party",
+		"eventImg": "images/mario.png",
+		"eventImgBig": "images/marioKartBig.jpeg",
+		"eventDescription" : "Mario Kart Party",
+		"eventDate" : "2016-04-18",
+		"eventTime" : "07:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "going"
+	},
+	{
+		"eventName": "Subway Party",
+		"eventImg": "images/subwayFront.jpeg",
+		"eventDescription" : "Subway Party",
+		"eventDate" : "2016-04-18",
+		"eventTime" : "07:00 p.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "going"
+	},
+	{
+		"eventName": "Ultimate Frisbee",
+		"eventImg": "images/frisbee1.png",
+		"eventImgBig": "images/frisbeeBig.jpeg",
+		"eventDescription" : "Ultimate Frisbee",
+		"eventDate" : "2016-04-20",
+		"eventTime" : "10:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "interested"
 	},
 	{
 		"eventName": "Pickup Basketball",
 		"eventImg": "images/basketball2.png",
 		"eventDescription" : "Pickup Basketball",
-		"eventDate" : "2016-04-18",
+		"eventDate" : "2016-04-24",
 		"eventTime" : "09:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : false
+		"attendingStatus" : "interested"
+	},
+	{
+		"eventName": "Soccer Game",
+		"eventImg": "images/soccer.png",
+		"eventDescription" : "Soccer Game",
+		"eventDate" : "2016-04-25",
+		"eventTime" : "10:00 a.m.",
+		"eventLocation" : "",
+		"friendsGoing" : "url",
+		"attendingStatus" : "going"
 	},
 	{
 		"eventName": "Study session",
 		"eventImg": "images/study.png",
 		"eventDescription" : "Study session",
-		"eventDate" : "2016-04-20",
+		"eventDate" : "2016-04-28",
 		"eventTime" : "07:00 p.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : true
+		"attendingStatus" : "trashed"
 	},
 	{
-		"eventName": "Soccer Game",
+		"eventName": "Soccer Tournament",
 		"eventImg": "images/soccer.png",
 		"eventDescription" : "Soccer Game",
 		"eventDate" : "2016-04-30",
 		"eventTime" : "10:00 a.m.",
 		"eventLocation" : "",
 		"friendsGoing" : "url",
-		"trashed" : true
+		"attendingStatus" : "trashed"
 	}
 ]}
