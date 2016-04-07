@@ -1,6 +1,6 @@
 # EventMaster
 View the current app progress here:
-http://ec2-52-34-83-155.us-west-2.compute.amazonaws.com/CS256/EventMaster/samplepage.html
+http://ec2-52-34-83-155.us-west-2.compute.amazonaws.com/CS256/EventMaster/homepage.html
 
 Note: If you download this and try to run this locally on chrome, you need to enable cross-origin requests in order for the menu to work. Or you can just use firefox, I think it allows the requests automatically.
 <br>
